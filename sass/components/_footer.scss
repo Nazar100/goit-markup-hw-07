@@ -136,13 +136,13 @@ footer {
   display: inline-flex;
   align-content: flex-start;
   cursor: pointer;
-}
 
-.subscribe-button::after {
-  content: url(../image/icons/subscribe.svg);
-  margin-top: 4px;
-  padding-bottom: 0px;
-  margin-left: 10px;
+  &::after {
+    content: url(../image/icons/subscribe.svg);
+    margin-top: 4px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+  }
 }
 
 .p {
