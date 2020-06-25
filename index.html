@@ -16,85 +16,6 @@
   </head>
 
   <body>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <form class="form">
-          <h2>Оставьте свои данные, мы вам перезвоним</h2>
-
-          <div class="form-field">
-            <input
-              type="text"
-              name="name"
-              class="input"
-              id="name"
-              placeholder=" "
-            />
-            <label for="name" class="name">Имя</label>
-            <svg width="18" height="18" class="form-icons">
-              <use
-                href="./image/icons/symbol-defs-3.svg#icon-person-black"
-              ></use>
-            </svg>
-          </div>
-
-          <div class="form-field">
-            <input
-              type="number"
-              name="number"
-              class="input"
-              id="number"
-              placeholder=" "
-            />
-            <label for="number" class="name">Телефон</label>
-            <svg width="18" height="18" class="form-icons">
-              <use
-                href="./image/icons/symbol-defs-3.svg#icon-phone-black"
-              ></use>
-            </svg>
-          </div>
-
-          <div class="form-field">
-            <input
-              type="email"
-              name="mail"
-              class="input"
-              id="mail"
-              placeholder=" "
-            />
-            <label for="mail" class="name">Почта </label>
-            <svg width="18" height="18" class="form-icons">
-              <use
-                href="./image/icons/symbol-defs-3.svg#icon-email-black"
-              ></use>
-            </svg>
-          </div>
-
-          <div class="form-field-text">
-            <textarea
-              placeholder="Комментарий"
-              name="comment"
-              rows="7"
-            ></textarea>
-          </div>
-
-          <label for="policy" class="policy-text">
-            <input type="checkbox" name="policy" id="policy" class="checkbox" />
-            <span class="checkbox-icon"></span
-            ><span class="policy-text-item">
-              Соглашаюсь с рассылкой и принимаю
-              <a href="" class="policy-rules">Условия договора</a>
-            </span>
-          </label>
-
-          <div class="form-field-submit">
-            <button type="submit" class="button-submit">Отправить</button>
-          </div>
-          <button class="close" data-modal-close>
-            <img src="./image/icons/close.svg" alt="" class="close-icon" />
-          </button>
-        </form>
-      </div>
-    </div>
     <header>
       <div class="container">
         <nav class="main-nav">
@@ -759,7 +680,87 @@
         <p class="add-info">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <form class="form">
+          <h2>Оставьте свои данные, мы вам перезвоним</h2>
 
+          <div class="form-field">
+            <input
+              type="text"
+              name="name"
+              class="input"
+              id="name"
+              placeholder=" "
+            />
+            <label for="name" class="name">Имя</label>
+            <svg width="18" height="18" class="form-icons">
+              <use
+                href="./image/icons/symbol-defs-3.svg#icon-person-black"
+              ></use>
+            </svg>
+          </div>
+
+          <div class="form-field">
+            <input
+              type="number"
+              name="number"
+              class="input"
+              id="number"
+              placeholder=" "
+            />
+            <label for="number" class="name">Телефон</label>
+            <svg width="18" height="18" class="form-icons">
+              <use
+                href="./image/icons/symbol-defs-3.svg#icon-phone-black"
+              ></use>
+            </svg>
+          </div>
+
+          <div class="form-field">
+            <input
+              type="email"
+              name="mail"
+              class="input"
+              id="mail"
+              placeholder=" "
+            />
+            <label for="mail" class="name">Почта </label>
+            <svg width="18" height="18" class="form-icons">
+              <use
+                href="./image/icons/symbol-defs-3.svg#icon-email-black"
+              ></use>
+            </svg>
+          </div>
+
+          <div class="form-field-text">
+            <textarea
+              id="comment"
+              name="comment"
+              rows="7"
+              class="input-comment"
+              placeholder=" "
+            ></textarea>
+            <label for="comment" class="name-text">Комментарий</label>
+          </div>
+
+          <label for="policy" class="policy-text">
+            <input type="checkbox" name="policy" id="policy" class="checkbox" />
+            <span class="checkbox-icon"></span
+            ><span class="policy-text-item">
+              Соглашаюсь с рассылкой и принимаю
+              <a href="" class="policy-rules">Условия договора</a>
+            </span>
+          </label>
+
+          <div class="form-field-submit">
+            <button type="submit" class="button-submit">Отправить</button>
+          </div>
+           <button class="close" data-modal-close>	
+        <span class="close-icon">&#215</span></button>
+        </form>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
